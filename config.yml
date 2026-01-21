@@ -1,0 +1,61 @@
+title: "Yassine Belhaj Salah"
+email: "yassine.bhs06@example.com"
+description: "Student pentester — weekly writeups, small Python tools, recon automation."
+baseurl: "" # the subpath, e.g. "/repo-name" (leave empty for user site)
+url: "https://yassinebelhajsalah-eng.github.io" # your live URL
+theme: minima
+repository: "yassinebelhajsalah-eng/cyber-portfolio"
+
+# Author / social
+author:
+  name: "yassinebelhajsalah-eng"
+  email: "yassine.bhs06@example.com"
+  twitter: ""
+  linkedin: ""
+
+# Collections (folder names starting with underscore)
+collections:
+  writeups:
+    output: true
+    permalink: /writeups/:year/:month/:day/:title/
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Defaults for front matter
+defaults:
+  - scope:
+      path: ""
+      type: "writeups"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Markdown & permalinks
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
+# Exclude files from build
+exclude:
+  - "node_modules"
+  - "README.md"
+
+# Optional: navigation links you can use in your layouts
+nav:
+  - title: "About"
+    url: "/"
+  - title: "Writeups"
+    url: "/writeups/"
+  - title: "Tools"
+    url: "/tools/"
+  - title: "Contact"
+    url: "/contact/"
