@@ -13,6 +13,6 @@ I’m learning web security (PortSwigger → XSS, SQLi, Auth), building recon au
 - Reports: redacted engagement-style reports (lab targets) (`/reports/`)  
 
 ### Quick links
-- 🔭 Current focus: PortSwigger, TCM workflow, recon tooling  
+- 🔭 Current focus: PortSwigger, Bug Bounty, recon tooling  
 - 📫 Contact: [GitHub profile](https://github.com/yassinebelhajsalah-eng) — open an issue to request a demo  
 - ⚠️ I only test lab targets or systems with explicit permission.
